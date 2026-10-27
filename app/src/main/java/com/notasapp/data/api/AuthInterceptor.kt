@@ -13,7 +13,6 @@ class AuthInterceptor(private val sessionManager: SessionManager) : Interceptor 
         if (token.isNullOrBlank()) {
             return chain.proceed(original)
         }
-
         val authenticated = original.newBuilder()
             .header("Authorization", "Bearer $token")
             .build()
