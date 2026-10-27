@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NotasApp</string>
+
+    <!-- Login -->
+    <string name="login_title">Iniciar sesión</string>
+    <string name="login_email_hint">Correo electrónico</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_button">Ingresar</string>
+    <string name="error_email_required">Ingresa tu correo electrónico</string>
+    <string name="error_email_invalid">El correo electrónico no es válido</string>
+    <string name="error_password_required">Ingresa tu contraseña</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_welcome">Bienvenido, %1$s</string>
+    <string name="dashboard_create_note">Crear nota</string>
+    <string name="dashboard_list_notes">Ver mis notas</string>
+    <string name="dashboard_logout">Cerrar sesión</string>
+
+    <!-- Crear nota -->
+    <string name="create_note_title">Nueva nota</string>
+    <string name="note_title_hint">Título</string>
+    <string name="note_content_hint">Contenido</string>
+    <string name="note_save_button">Guardar nota</string>
+    <string name="error_title_required">Ingresa un título</string>
+    <string name="error_content_required">Ingresa el contenido de la nota</string>
+    <string name="note_created_success">Nota guardada correctamente</string>
+
+    <!-- Listado -->
+    <string name="notes_list_title">Mis notas</string>
+    <string name="notes_empty">Aún no tienes notas guardadas</string>
+    <string name="notes_retry">Reintentar</string>
+
+    <!-- Para Eliminar Nota -->
+    <string name="note_delete">Eliminar</string>
+    <string name="note_delete_confirm_title">Eliminar nota</string>
+    <string name="note_delete_confirm_message">¿Seguro que deseas eliminar \"%1$s\"? Esta acción no se puede deshacer.</string>
+    <string name="note_deleted_success">Nota eliminada</string>
+    <string name="cancel">Cancelar</string>
+</resources>

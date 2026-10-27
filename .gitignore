@@ -1,0 +1,20 @@
+# Archivo a ignorar para el proyecto Android Studio 
+# Son archivos de configuración y dependencias que no deben ser versionados en Git
+*.iml
+.gradle/
+build/
+local.properties
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Backend
+backend/node_modules/
+backend/.env
+
+# Sistema
+.DS_Store
+Thumbs.db
