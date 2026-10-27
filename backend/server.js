@@ -187,7 +187,7 @@ app.get('/', (req, res) => {
 <body>
   <div class="card">
     <h1>NotasApp API</h1>
-    <p>Estado: <span class="ok">en línea</span> · Versión 1.0.0</p>
+    <p>Estado: <span class="ok">en línea</span> · Versión 1</p>
     <table>
       <tr><th>Método</th><th>Ruta</th><th>Autenticación</th><th>Descripción</th></tr>
       <tr><td>POST</td><td><code>/register</code></td><td>No</td><td>Crear usuario</td></tr>
