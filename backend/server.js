@@ -31,7 +31,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-//Middleware: valida el token JWT y expone el usuario autenticado en req.user
+//Middleware: valida el token JWT y expone el usuario autenticado
 function authenticateToken(req, res, next) {
   const header = req.headers.authorization || '';
   const [scheme, token] = header.split(' ');

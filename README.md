@@ -37,7 +37,7 @@ NotasApp/
 ## Backend
 
 1. Ejecuta `backend/database.sql` en MySQL.
-2. Copia `.env.example` a `.env` y ajusta credenciales y `JWT_SECRET`.
+2. Crea el archivo `.env` ajusta credenciales y `JWT_SECRET`.
 3. `npm install` y `npm start`.
 4. Creación de usuario por medio de npm o insertar desde la base de datos:
 
